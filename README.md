@@ -1,16 +1,46 @@
-# pruebadeclases
+# Clean Architecture PokeApp Flutter
 
-A new Flutter project.
+Este es un proyecto de Flutter que implementa Clean Architecture para mostrar Pokémon utilizando la API de PokeAPI.
 
-## Getting Started
+## Características
+- Implementación de Clean Architecture
+- Consumo de la API de PokeAPI
+- Navegación entre Pokémon con botones de adelantar y retroceder
+- Gestión eficiente del estado
 
-This project is a starting point for a Flutter application.
+## Instalación
+1. Clona el repositorio:
+   ```sh
+   git clone https://github.com/yerytech/Clean-ArchitecturePokeAppFlutter.git
+   ```
+2. Accede al directorio del proyecto:
+   ```sh
+   cd Clean-ArchitecturePokeAppFlutter
+   ```
+3. Instala las dependencias:
+   ```sh
+   flutter pub get
+   ```
+4. Ejecuta la aplicación:
+   ```sh
+   flutter run
+   ```
 
-A few resources to get you started if this is your first Flutter project:
+## Estructura del Proyecto
+El proyecto sigue la arquitectura limpia, organizada en las siguientes capas:
+- **Data**: Contiene los modelos, repositorios e implementación de la API.
+- **Domain**: Contiene las entidades y los casos de uso.
+- **Presentation**: Contiene los widgets y la lógica de presentación.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Uso
+- Presiona el botón `Adelantar` para ver el siguiente Pokémon.
+- Presiona el botón `Retroceder` para ver el Pokémon anterior.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Contribución
+Si deseas contribuir, haz un fork del repositorio, crea una rama y envía un pull request.
+
+## Autor
+Desarrollado por  yerytech.
+
+## Licencia
+Este proyecto está bajo la licencia MIT.
